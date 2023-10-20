@@ -1,9 +1,11 @@
+
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class TopPage {
-    static List<OrderList> orderList2 = new ArrayList<>();
+    static List<OrderList> orderList = new ArrayList<>();
     // 고유 데이터
     boolean orderEnded ;
 

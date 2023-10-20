@@ -1,5 +1,3 @@
-import java.util.Map;
-
 public class OrderList {
     // 분류번호
     private Long id;
