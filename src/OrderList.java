@@ -1,17 +1,21 @@
 public class OrderList {
-    // 분류번호
-    private Long id;
-    // 책 이름
+    // 상품명
     private String name;
     // 가격
     private double price;
-    public OrderList(Long id, String name, double price) {
-        this.id = id;
+
+    private OrderList orderList;
+    public OrderList(String name, double price) {
         this.name = name;
         this.price = price;
     }
 
-    public Long getId() {return id;}
+    public void add(String name, double price) {
+        this.name = name;
+        this.price = price;
+
+    }
+
     public String getName() {
         return name;
     }
@@ -19,7 +23,9 @@ public class OrderList {
     public double getPrice() {
         return price;
     }
+
     public void setPrice(double price) {
         this.price = price;
     }
+
 }
